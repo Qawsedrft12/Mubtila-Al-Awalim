@@ -1,2 +1,35 @@
-# Mubtila-Al-Awalim
-لعبة مبتلع العوالم - World Devourer RPG Simulation Game with procedural worlds and deep empire simulation
+# مبتلع العوالم (Mubtila Al-Awalim)
+
+## وصف اللعبة
+لعبة RPG محاكاة عميقة حيث يبتلع البطل العوالم الستة ليحفظها من الدمار، مع بناء عالم شخصي، محاكاة إمبراطوريات، وتوليد إجرائي.
+
+## الميزات الرئيسية
+- **6 عوالم فريدة**: عالم النور، الظلام، التنانين والعنقاء، الإيلف، الأقزام، البشر والوحوش.
+  - كل عالم له جنس ممثل، حضارة، موارد، مباني، ثقافة، بيئات متنوعة.
+- **ميكانيك الابتلاع**: تحويل بيئات كاملة إلى عالم داخلي شخصي (مثل Minecraft voxel-based لكن مع حفظ الديناميكيات).
+- **RPG Elements**: شاشة حالة، مهارات، مستويات.
+- **Simulation**: محاكاة عميقة للإمبراطوريات، التاريخ، زواج الأجناس، نمو الكائنات.
+- **Building & Crafting**: بناء مستوطنات، توظيف، تصنيع.
+- **Procedural Generation**: توليد أصول ومحتوى برمجياً.
+
+## الهيكل المقترح للمشروع
+- `assets/` : أصول اللعبة
+- `scripts/` : كود (GDScript/C#)
+- `docs/` : وثائق
+- `worlds/` : تعريفات العوالم
+
+## التقنيات
+- **Godot Engine** (موصى به للopen source).
+- Procedural tools: Noise functions, cellular automata.
+- Simulation: Entity Component System (ECS).
+
+## خطة اليوم 1 (مكتملة)
+- إنشاء الريبو.
+- README و GDD.
+
+## الخطة لليوم التالي
+- توسيع GDD بالتفاصيل الكاملة للعوالم.
+- إعداد هيكل Godot project.
+- بدء prototype لنظام الابتلاع.
+
+زيارة الريبو: https://github.com/Qawsedrft12/Mubtila-Al-Awalim
